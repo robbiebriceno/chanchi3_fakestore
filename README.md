@@ -1,12 +1,50 @@
-# React + Vite
+# Fakestore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**chanchi3_fakestore** es una aplicación que utiliza placeholders para mejorar la experiencia del usuario mientras los datos se cargan. Los placeholders se utilizan para mostrar contenido de forma provisional, evitando que la interfaz de usuario se vea vacía durante la espera, lo que mejora la usabilidad y la experiencia visual.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+MiPlaceholder es una solución simple y eficiente para gestionar el estado de carga en aplicaciones web, mostrando placeholders atractivos en lugar de dejar espacio vacío mientras los datos finales se cargan.
 
-## Expanding the ESLint configuration
+## Características
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Placeholders dinámicos**: Muestra imágenes, textos o elementos gráficos mientras los datos finales se cargan.
+- **Accesibilidad**: Los placeholders son accesibles, y la experiencia de usuario no se ve afectada por la carga de contenido.
+
+## Tecnologías
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Framework**: [React](https://reactjs.org/) 
+- **Librería de Placeholders**: (jsonplaceholder.typicode.com) 
+
+## Instalación
+
+1. Clona el repositorio a tu máquina local:
+
+    ```bash
+    git clone https://github.com/robbiebriceno/chanchi3_fakestore
+    ```
+
+2. Entra en el directorio del proyecto:
+
+    ```bash
+    cd chanchi3_fakestore
+    ```
+
+3. Instala las dependencias:
+
+    ```bash
+    npm install
+    ```
+
+4. Inicia el servidor de desarrollo:
+
+    ```bash
+    npm run dev
+    ```
+
+Deploy:
+
+ ```bash
+chanchi3fake.netlify.app
+    ```
